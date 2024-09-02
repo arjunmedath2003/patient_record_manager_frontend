@@ -1,0 +1,95 @@
+/* logcs.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+}
+
+.login-body {
+    background: url('2.jpg') no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay to make the text stand out */
+}
+
+.box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.login {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.labelword {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input1 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.loginbutton {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.loginbutton:hover {
+    background-color: #218838;
+}
+
+.change {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

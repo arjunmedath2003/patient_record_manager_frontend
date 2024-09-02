@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navigation {
+    width: 100%;
+    background-color: #0044cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Table Styles */
+  .scrolltable {
+    width: 80%;
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .table th, .table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .table th {
+    background-color: #0044cc;
+    color: white;
+  }
+  
+  /* Add Button Styles */
+  .add-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
